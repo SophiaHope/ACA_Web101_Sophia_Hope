@@ -1,9 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("mountains.jpg");
+    background-image: url("cruise.jpg");
     background-repeat: no-repeat;
     background-size: 1600px 1000px;
     background-size: cover
+  
   }
   /* What kind of selector is this? */
   .logo {
@@ -41,10 +42,10 @@ body {
   }
  
   .has-border {
-    border-radius: 25px;
-    border: 1 px cornflowerblue;
-    background: none;
-    padding: 20px;
+      border-radius: 25px;
+      border: 2px solid #0795C3;
+      background: none;
+      padding: 20px;
   }
  
   nav {

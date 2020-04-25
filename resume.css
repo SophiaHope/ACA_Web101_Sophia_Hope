@@ -56,3 +56,8 @@ header
     width: 100%;
 }
 
+.bio 
+{
+    flex-direction: ;
+    align-content: center;
+}

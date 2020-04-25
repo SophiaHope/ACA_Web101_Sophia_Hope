@@ -1,0 +1,58 @@
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 20% 80% ;
+    grid-template-rows: auto auto auto ;
+    grid-template-areas: 
+        "ci aoe"
+        "ci ph"
+        "ci eh";
+}
+
+.Areas_of_Expertise
+{grid-area: aoe;
+    
+
+}
+
+.Hobbies
+{grid-area: ph;
+
+}
+
+.Skills
+{grid-area: eh;
+
+}
+
+.Contact_Info
+{grid-area: ci
+
+}
+
+header
+{
+    display: grid;
+    grid-template-columns: 20% 80%; 
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "pic sh"
+    "pic bio";
+    background-image: linear-gradient(to right, purple , blue);
+    color: white;
+
+}
+.pic-box
+{
+/*   width:10%; */
+    /* height: auto; */
+    transform: rotate(90deg);
+
+}
+
+.pic 
+{
+    height: 100%;
+    width: 100%;
+}
+

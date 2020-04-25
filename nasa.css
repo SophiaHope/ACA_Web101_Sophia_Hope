@@ -1,14 +1,13 @@
 body {
     margin: 0 auto;
     width: 850px;
-
 }
 
 main {
 
     margin: 0 auto;
     height: 450px;
-    background-image: url(../img/nasa.jpg);
+    background-image: url(../img/galaxy.jpg);
     color: white
  
 }

@@ -1,0 +1,64 @@
+.top
+{   height: 50%;
+    width: 100%;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottom 
+{   height: 50%;
+    width: 100%;
+    background: pink ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body 
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.words
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+h2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-size: 150px;
+}
+
+@media (min-width: 992px) { 
+    .bottom 
+{   height: 50%;
+    width: 100%;
+    background: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+} 
+.words
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+

@@ -1,0 +1,19 @@
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightseagreen ;
+}
+
+.h1 {
+    display flex: flex: ;
+    justify content: center;
+}
+
+body{
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    
+    background-color: lightskyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15%;
+
+}
